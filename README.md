@@ -19,8 +19,6 @@ A Z-API oferece um teste gratuito limitado para o envio de mensagens automatizad
 
 1. Pré-requisitos
 
-    Antes de começar, verifique se você tem o seguinte:
-
         Java 8 ou superior instalado.
 
         Maven ou Gradle para gerenciamento de dependências.
@@ -31,7 +29,9 @@ A Z-API oferece um teste gratuito limitado para o envio de mensagens automatizad
 
 3. Configuração da Z-API
 
-    Crie uma conta na Z-API (caso ainda não tenha). Vá até Z-API e registre-se para obter um token e o instanceId.
+    Criar uma conta na Z-API. Registre-se para obter um token e o instanceId.
+
+    Vá em Segurança > Ativar o Token de segurança da conta 
 
     Adicione suas credenciais no arquivo application.properties: Abra o arquivo src/main/resources/application.properties e adicione suas credenciais da Z-API:
 
@@ -42,7 +42,7 @@ A Z-API oferece um teste gratuito limitado para o envio de mensagens automatizad
 
         Substitua SEU_INSTANCE_ID_AQUI pelo instanceId fornecido na Z-API.
 
-4. Configuração do número de telefone
+5. Configuração do número de telefone
 
     O número de telefone de destino (número de teste ou do administrador do grupo) deve ser configurado no código.
 
@@ -50,12 +50,10 @@ A Z-API oferece um teste gratuito limitado para o envio de mensagens automatizad
 
         Altere o número de telefone no método enviarMensagemDeTeste() para o número de teste desejado:
 
-        String numero = "5511913613885"; // número de teste
-
-    Você pode mudar o número para outro de sua escolha, mas lembre-se de que a Z-API só permite o envio de mensagens para números registrados ou para grupos por meio de links de convite (conforme explicado anteriormente).
+        String numero = "5511977430273"; // número de teste
 
 6. Testando o Envio de Mensagem
 
-    Com o projeto rodando, você pode acessar o seguinte endpoint:
+    Com o projeto rodando, acessar o endpoint:
 
         http://localhost:8080/teste
