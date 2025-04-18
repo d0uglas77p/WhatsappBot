@@ -19,15 +19,15 @@ A Z-API oferece um teste gratuito limitado para o envio de mensagens automatizad
 
 1. Pré-requisitos
 
-Antes de começar, verifique se você tem o seguinte:
+    Antes de começar, verifique se você tem o seguinte:
 
-    Java 8 ou superior instalado.
+        Java 8 ou superior instalado.
 
-    Maven ou Gradle para gerenciamento de dependências.
+        Maven ou Gradle para gerenciamento de dependências.
 
-    Conta na Z-API (com um token de autenticação válido e instanceId).
+        Conta na Z-API (com um token de autenticação válido e instanceId).
 
-    Spring Boot configurado no seu ambiente.
+        Spring Boot configurado no seu ambiente.
 
 3. Configuração da Z-API
 
